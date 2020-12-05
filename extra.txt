@@ -1,2 +1,59 @@
 https://awkwardasshole.files.wordpress.com/2020/09/awkwardasshole_118807361_803752710164649_8765586365637117028_n.jpg
 image of brittany smiling with cake
+
+https://awkwardasshole.files.wordpress.com/2018/01/017.jpg?resize=1500,1500&strip=info
+baby
+
+https://awkwardasshole.files.wordpress.com/2020/09/2018-spring-1.jpg?w=999&h=
+boxing
+
+https://awkwardasshole.files.wordpress.com/2020/09/img_2104-1.jpeg?w=700&h=
+gardening
+
+https://awkwardasshole.files.wordpress.com/2020/09/img_2369-1.jpeg?w=700&h=
+chicken
+
+cookies:
+<header>
+        
+        <!-- <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-top border-bottom box-shadow mb-5"> -->
+            
+            <!-- <div class="container"> -->
+                <!-- <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AwkwardBlog</a> -->
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <!-- <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                        </li>
+                    </ul> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Cooking Club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">Seasonal Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">Antiracism</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">Photography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">Comics</a>
+                        </li>
+                    </ul> -->
+                <!-- </div>
+            </div> -->
+        <!-- </nav> -->
+        
+    </header> 

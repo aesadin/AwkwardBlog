@@ -10,18 +10,23 @@
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
-              crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+            asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+            asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+            crossorigin="anonymous"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <div class="container">
+        <div class="jumbotron">
+            <p></p>
+        </div>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-top border-bottom  mb-5">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AwkwardBlog</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Awkward Asshole</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,20 +38,31 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="About">About</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                &#9776;
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Recipes</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">Cooking Club</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="About" asp-action="Index">Seasonal Resources</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="About" asp-action="Index">Antiracism</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="About" asp-action="Index">Photography</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="About" asp-action="Index">Comics</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <!-- <div class="container">
-        <partial name="_CookieConsentPartial" />
+    </header> 
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div> -->
-
+    </div>
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2020 - AwkwardBlog - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -74,5 +90,6 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>

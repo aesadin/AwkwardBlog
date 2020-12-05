@@ -31,3 +31,4 @@
 /Users/MamaJude/Desktop/AwkwardBlog/obj/Debug/netcoreapp2.2/AwkwardBlog.dll
 /Users/MamaJude/Desktop/AwkwardBlog/obj/Debug/netcoreapp2.2/AwkwardBlog.pdb
 /Users/MamaJude/Desktop/AwkwardBlog/obj/Debug/netcoreapp2.2/AwkwardBlog.csproj.CopyComplete
+/Users/MamaJude/Desktop/AwkwardBlog/obj/Debug/netcoreapp2.2/Razor/Views/About/Index.g.cshtml.cs
