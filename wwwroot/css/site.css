@@ -59,6 +59,33 @@ body {
 
 }
 
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.example-1 {
+  position: relative;
+  overflow-y: scroll;
+  height: 300px; 
+}
+.card-body img {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  height: 225px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.card-body .row p {
+  margin-top: 1em;
+  font-size: 8px;
+}
+
+
+
 .footer {
   position: absolute;
   bottom: 0;
